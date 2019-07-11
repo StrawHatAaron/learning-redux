@@ -1,7 +1,8 @@
 const initialState = {
-    counter: 0
+    counter: 0,
 }
 
+//this is setting a default parameter 
 export default function rootReducer(state = initialState, action){
     switch(action.type){
         case 'INCREMENT':
